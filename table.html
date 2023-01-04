@@ -6,59 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
+    <!-- Exernal CSS -->
+    <link rel="stylesheet" href="./styles/nav.css">
     <!-- internal CSS -->
     <style>
-        td,th{
-            border:1px solid salmon;
+        td,th {
+            border: 1px solid salmon;
             border-collapse: collapse;
-            padding:5px 15px;
+            padding: 5px 15px;
         }
-        table{
+
+        table {
             border-collapse: collapse;
-        
+
         }
     </style>
 
 </head>
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./Assets/media/form.html
+                    ">form</a></li>
+                <li><a href="./table.html">table</a></li>
+                <li><a href="./semantic.html">semantic</a></li>
+                <li><a href="./non-semantic.html">Non Semantic</a></li>
+                <li><a href="./Assets/media/SampleVideo_1280x720_2mb.mp4">media</a></li>
+
+            </ul>
+        </nav>
+        <h2>This is Table </h2>
+    </header>
+
+
     <!-- Starts here -->
+    <table>
+        <thead>
+            <th>No.</th>
+            <th>Full Name</th>
+            <th>Comapany</th>
+            <th>Salary</th>
 
- <table>
-    <thead>
-        <th>No.</th>
-        <th>Full Name</th>
-        <th>Comapany</th>
-        <th>Salary</th>
+        </thead>
+        <tbody>
 
-    </thead>
-    <tbody>
-        
-    <tr>
-        <td>1</td>
-        <td>Bill Gates</td>
-        <td>Microsoft</td>
-        <td>$1000</td>
-    </tr>
-    <tr>
-        <td>2</td>
-        <td>Steve Jobs</td>
-        <td>Apple</td>
-        <td>$1200</td>
-    </tr>
-    <tr>
-        <td>3</td>
-        <td>Larry Page</td>
-        <td>Google</td>
-        <td>$1100</td>
-    </tr>
-    <tr>
-        <td>4</td>
-        <td>Mark Zuckeberg</td>
-        <td>Facebook</td>
-        <td>$1300</td>
-    </tr>
- </table>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>$1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>$1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zuckeberg</td>
+                <td>Facebook</td>
+                <td>$1300</td>
+            </tr>
+    </table>
 
     </tbody>
 </body>

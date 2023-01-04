@@ -1,0 +1,19 @@
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-right: 10px;
+    list-style:none;
+    padding:0 8px;
+}
+nav li a:hover{
+    background-color:lightgray;
+    padding:0 5px;
+    
+}
+nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:black;
+    padding:0 5px;
+}
